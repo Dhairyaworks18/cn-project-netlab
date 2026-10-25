@@ -1,0 +1,9 @@
+{
+  "name": "netlab-computer-networks-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite --host 0.0.0.0", "build":"tsc -b && vite build", "preview":"vite preview --host 0.0.0.0", "test":"vitest run"},
+  "dependencies": {"@vitejs/plugin-react":"latest", "vite":"latest", "typescript":"latest", "react":"latest", "react-dom":"latest", "lucide-react":"latest", "framer-motion":"latest", "recharts":"latest"},
+  "devDependencies": {"vitest":"latest", "@types/react":"latest", "@types/react-dom":"latest", "@types/node":"latest", "@testing-library/react":"latest", "jsdom":"latest", "typescript":"latest"}
+}
